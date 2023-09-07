@@ -122,7 +122,6 @@ svg {
 /* section tittle */
 
 .main_seccion {
-
     display: flex;
     height: 600px;
     align-items: center;
@@ -130,7 +129,7 @@ svg {
 }
 
 .main_seccion {
-    background-color: var(--background-title);
+    background-color: var(--background-color);
     background-image: linear-gradient(to bottom,
             rgba(162, 165, 166, 0.2) 0%,
             rgba(135, 137, 144, 0.4) 4%,
@@ -143,17 +142,13 @@ svg {
     text-align: center;
 }
 
-.main_title {
+.main_seccion .main_title {
     color: var(--background-color);
-
-    font-size: 44px;
     font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 2.64px;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
-    height: 120px;
-    text-align: center;
 }
 
 
