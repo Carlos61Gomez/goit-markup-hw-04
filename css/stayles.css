@@ -347,6 +347,61 @@ svg {
 
 /* section regular_customers*/
 
+
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.clients-item {
+    width: 170px;
+    height: 81px;
+    border: 1px solid var(--border-icon);
+    color: var(--border-icon);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.clients-item:hover {
+    border-color: var(--blue-text);
+    color: var(--blue-text);
+    cursor: pointer;
+}
+
+.clients-icon-left {
+    padding: 21px 60px;
+}
+
+.clients-icon {
+    padding: 21px 45px;
+}
+
+.link {
+    color: var(--border-icon);
+}
+
+.link:visited {
+    color: var(--border-icon);
+}
+
+.link:hover {
+    color: var(--select-color)
+}
+
+/* section regular_customers*/
+/* section portafolio inicio*/
 .linea {
     border: 1px solid #ececec;
     margin: 0px;
@@ -392,8 +447,7 @@ li {
     background: #2196f3;
 }
 
-/* section regular_customers*/
-
+/* section portafolio inicio*/
 
 /* section projects */
 
