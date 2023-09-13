@@ -126,18 +126,21 @@ svg {
     height: 600px;
     align-items: center;
     margin: 0;
+    background: rgba(47, 48, 58, 0.40);
 }
 
 .main_seccion {
     background-color: var(--footer-color1);
     background-image: linear-gradient(to bottom,
             rgba(162, 165, 166, 0.2) 0%,
-            rgba(135, 137, 144, 0.4) 4%,
+            rgba(120, 120, 144, 0.4) 4%,
             rgba(91, 91, 108, 0.5) 16%,
             rgba(55, 54, 79, 0.5) 39%,
             rgba(26, 25, 56, 0.5) 74%,
             rgba(2, 0, 36, 1) 100%),
+
         url(/images/background.jpg);
+
     background-size: cover;
     text-align: center;
 }
@@ -305,6 +308,9 @@ svg {
     border-radius: 4px;
 }
 
+.services-item-name {
+    background: rgba(47, 48, 58, 0.80);
+}
 
 .our__team_image .name_worker {
     font-weight: 500;
